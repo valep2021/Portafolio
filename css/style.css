@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+p,
+a,
+button,
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+    font-family: 'Cookie', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Shrikhand', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    z-index: 666;
+}
+
+.whatsapp img {
+    width: 90px;
+}
+
+header {
+    width: 100%;
+    background-color: #e4e6d9;
+    opacity: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+header::after {
+    width: 430px;
+    height: 315px;
+    content: "";
+    background-image: url("../img/1.png");
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+
+header::before {
+    width: 172px;
+    height: 687px;
+    content: "";
+    background-image: url(../img/2.png);
+    position: absolute;
+    right: 0;
+    bottom: -367px;
+}
+
+#logo {
+    padding-top: 20px;
+    width: 150px;
+}
+
+header .container .media img {
+    width: 300px;
+    z-index: 999;
+    position: absolute
+}
+
+header .container .media-body h5 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+
+header .container .media-body {
+    padding: 0 80px;
+}
+
+header.container .media-body p {
+    color: black;
+    text-align: start;
+    text-justify: inherit;
+}
+
+header #navportafolio {
+    background: transparent;
+    margin-top: 50px;
+}
+
+header #navportafolio #navbarNav {
+    justify-content: center;
+}
+
+header #navportafolio ul li a {
+    color: #263529;
+    font-size: medium;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #263529;
+    border-radius: 20px;
+    margin: 0 15px;
+    padding: 7px 15px;
+    transition: .4s;
+}
+
+header #navportafolio ul li a:hover {
+    color: #e4e6d9;
+    background-color: #263529;
+}
+
+main {
+    text-align: center;
+    background: #e4e6d9;
+}
+
+main h4 {
+    font-size: 50px;
+    z-index: 999;
+}
+
+#habilidades::after {
+    width: 187px;
+    height: 583px;
+    content: "";
+    background-image: url(../img/3.png);
+    position: absolute;
+    top: 529px;
+    left: 0%;
+}
+
+#habilidades::before {
+    width: 1911px;
+    height: 243px;
+    content: "";
+    background-image: url(../img/habilidades.png);
+    position: absolute;
+    right: 0;
+    bottom: -970px;
+}
+
+#habilidades {
+    background-color: #8BA889;
+}
+
+#habilidades h4 {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#habilidades .row .col-6 h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#habilidades .row .col-6 img {
+    width: 150px;
+}
+
+#estudios::after {
+    width: 214px;
+    height: 657px;
+    content: "";
+    background-image: url(../img/4.png);
+    position: absolute;
+    top: 1647px;
+    left: 0;
+}
+
+#estudios::before {
+    width: 236px;
+    height: 596px;
+    content: "";
+    background-image: url(../img/5.png);
+    position: absolute;
+    right: 0;
+    bottom: -1348px;
+}
+
+#estudios h4 {
+    text-align: start;
+    background: #263529;
+    color: #e4e6d9;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 0 15px;
+    border: 1px;
+    display: inline-block;
+}
+
+.card-idiomas {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-idiomas .cont-text {
+    position: absolute;
+    top: 0;
+    right: -200%;
+    left: 0;
+    transition: .5s;
+    background: #8BA889;
+    width: 150px;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: 80%;
+}
+
+.card-idiomas .cont-text p {
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+.card-idiomas:hover .cont-text {
+    right: 0px;
+}
+
+.card-hobbies {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-hobbies .cont-info {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    left: 0;
+    transition: .5s;
+    background: #8BA889;
+    width: 382px;
+    margin: 0 auto;
+    height: 72%;
+}
+
+.card-hobbies .cont-info h3 {
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.card-hobbies:hover .cont-info {
+    top: 0px;
+}
+
+#estudios .row .col-6 img {
+    width: 200px;
+    padding-top: 30px;
+}
+
+#estudios .row .col-6 p {
+    text-align: left;
+    font-size: 25px;
+    padding: 20px 0 0 10px;
+}
+
+#estudios {
+    padding: 200px 0px 0px 0px;
+}
+
+#idiomas {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#idiomas #titulo h6 {
+    font-size: 38px;
+    justify-content: center;
+}
+
+#estudios #idiomas .col-4 img {
+    width: 150px;
+    transition: .4s;
+}
+
+#hobbies::before {
+    width: 171px;
+    height: 454px;
+    content: "";
+    background-image: url(../img/6.png);
+    position: absolute;
+    right: 0;
+    bottom: -1882px;
+}
+
+#hobbies h4 {
+    background-image: url(../img/HOBBIES.png);
+    width: 448px;
+    height: 115px;
+    background-size: 100%;
+    display: inline-block;
+    padding: 45px 0;
+}
+
+#hobbies img {
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 80px;
+}
+
+#experiencia::after {
+    width: 291px;
+    height: 728px;
+    content: "";
+    background-image: url(../img/9.png);
+    position: absolute;
+    top: 2798px;
+    left: -83px;
+}
+
+#experiencia::before {
+    width: 257px;
+    height: 637px;
+    content: "";
+    background-image: url(../img/8.png);
+    position: absolute;
+    right: 0;
+    bottom: -3024px;
+}
+
+#experiencia {
+    margin-bottom: 100px;
+}
+
+#experiencia img {
+    width: 700px;
+    max-width: 100%;
+}
+
+#experiencia p {
+    margin-top: 30px;
+    padding: 10px 10px;
+    background: #8ba889;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#portafolio::after {
+    width: 238px;
+    height: 451px;
+    content: "";
+    background-image: url(../img/11.png);
+    position: absolute;
+    top: 4089px;
+    left: -83px;
+}
+
+#portafolio::before {
+    width: 349px;
+    height: 637px;
+    content: "";
+    background-image: url(../img/10.png);
+    position: absolute;
+    right: 0;
+    bottom: -3422px;
+}
+
+#diseños h4 {
+    font-size: 35px;
+    text-align: left;
+}
+
+#fotografia h4 {
+    font-size: 35px;
+    text-align: left;
+}
+
+#videos h4 {
+    font-size: 35px;
+    text-align: left;
+}
+
+#portafolio .titulo {
+    background-image: url("../img/PORTAFOLIO.png");
+    width: 350px;
+    background-size: 100%;
+    display: inline-block;
+    padding: 66px 0;
+}
+
+footer {
+    background-image: url("../img/contacto.png");
+    background-color: #e4e6d9;
+    background-size: cover;
+    background-position-y: bottom;
+    padding: 200px 0;
+}
+
+footer #contacto .row {
+    text-align: center;
+}
+
+footer h6 {
+    font-size: 25px;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #8BA889;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e4e6d9;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    header::after {
+        display: none;
+    }
+    header::before {
+        display: none;
+    }
+    #habilidades::after {
+        display: none;
+    }
+    #habilidades::before {
+        display: none;
+    }
+    #estudios::after {
+        display: none;
+    }
+    #estudios::before {
+        display: none;
+    }
+    #hobbies::after {
+        display: none;
+    }
+    #hobbies::before {
+        display: none;
+    }
+    #experiencia::after {
+        display: none;
+    }
+    #experiencia::before {
+        display: none;
+    }
+    #portafolio::after {
+        display: none;
+    }
+    #portafolio::before {
+        display: none;
+    }
+}
